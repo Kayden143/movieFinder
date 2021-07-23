@@ -28,24 +28,32 @@
         </a>
       </div>
     </nav>
-    <h1 class="title has-text-centered">Movie Finding App</h1>
+    
     <section class="hero is-fullheight">
+     
       <div class="hero-body has-text-centered">
         <div class="login">
-          <img src="https://image.freepik.com/free-vector/colorful-speech-bubbles-set_74855-6314.jpg" width="325px" />
+           <h1 style = "color:black;" class="title has-text-centered">Movie Finding App</h1>
+          <h2 style = "color:black;">"I love movies" - Rachel Africk</h2>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVQOHmDHo0lya42bDepTMb7XumY5yV-Q_f2A&usqp=CAU" width="325px" />
           <form action="javascript:void(0);">
             <div class="field">
               <div class="control">
-                <input class="input is-medium is-rounded" type="text" id="passcode" placeholder="Enter a movie genre" autocomplete="username" required />
+                <input class="input is-medium" type="text" id="movieName" placeholder="Enter a movie name?" autocomplete="username" required />
               </div>
             </div>
             <div class="field">
               <div class="control">
-                <textarea class="textarea is-medium is-rounded" type="text" id="message" placeholder="What the movie name tho?" autocomplete="current-password" required></textarea>
+                <input class="input is-medium" type="text" id="passcode" placeholder="Enter a movie genre" autocomplete="username" required />
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <textarea class="textarea is-medium" type="text" id="message" placeholder="What the description tho?" autocomplete="current-password" required></textarea>
               </div>
             </div>
             <br />
-            <button class="button is-block is-fullwidth is-primary is-medium is-rounded" id="sendMsg">
+            <button style="background-color:#C24862;font-family:serif;" class="button is-block is-fullwidth red is-medium" id="sendMsg">
               Send Movie
             </button>
           </form>

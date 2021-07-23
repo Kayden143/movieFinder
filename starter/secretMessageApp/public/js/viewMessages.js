@@ -10,13 +10,15 @@ document.querySelector("#viewMsg").addEventListener("click", (e)=>{
             }
         }
     });
+
+    userGenre = "";
 });
 
 function display(message){
     //console.log(message);
     const messageText = document.querySelector("#message");
     const formPortion = document.querySelector("#passcodeInput");
-    messageText.innerHTML = messageText.innerHTML + "<br>" + message.name;
+    messageText.innerHTML = messageText.innerHTML + "<br>" + message.name.bold().fontsize(8) + "<br>" + message.description + "<br>";
     formPortion.style.display = "none";
 }
 
